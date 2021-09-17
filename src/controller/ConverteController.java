@@ -1,12 +1,20 @@
 /*
- * ImplementarumnovoprojetoJavacombasebibliotecaPilhaIntquepermitaaconversãodedecimaisparabinários,aqualsedádividindo,sucessivamente,ovalordeentradapor2econcatenandoosrestosdadivisãodoúltimoparaoprimeiro.
-OprojetodeveterumaclasseConverteControllernopackagecontroller,queinicializeumapilhadeinteirosecomummétododecToBin(intdecimal):String,que,recebendoumnúmerodecimalerealizandoasoperações,iráinserindoosrestosdasdivisõesnapilha.Aotérminodoempilhamento,deveráserfeitaaoperaçãodedesempilhar,concatenandocadanúmerodesempilhado(ConvertendoparaString)comopróximo,atéapilhaesvaziar.
-Deve-setertambémumaclassePrincipalnopackageviewquepermitaaousuárioinserirumnúmerodecimal
+ * Implementar um novo projeto Java com base biblioteca PilhaInt que permita a 
+ * conversão de decimais para binários, a qual se dá dividindo, sucessivamente,
+ * o valor de entrada por 2 e concatenando os restos da divisão do último para o
+ * primeiro. O projeto deve ter uma classe ConverteController no package 
+ * controller, que inicialize uma pilha de inteiros e com um método 
+ * decToBin(intdecimal):String, que, recebendo um número decimal e realizando as
+ * operações, irá inserindo os restos das divisões na pilha. Ao término do 
+ * empilhamento, deverá ser feita a operação de desempilhar, concatenando cada
+ * número desempilhado (Convertendo para String) com o próximo, até a pilha 
+ * esvaziar. Deve-se ter também uma classe Principal no package view que permita
+ * ao usuário inserir um número decimal.
  */
 
 package controller;
 
-import br.edu.imeusp.fateczl.ingridcosme.pilhaint.Pilha;
+import br.edu.fateczl.ingridcosme.pilhaint.Pilha;
 
 public class ConverteController {
 	
